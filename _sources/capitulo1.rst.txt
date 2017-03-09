@@ -3,26 +3,26 @@ El Camino del Programador
 
 El objetivo de este libro es enseñarle cómo pensar como un experto informático. Este forma de pensamiento combina algunas de las mejores características de las matemáticas, la ingeniería y las ciencias naturales. Tal como los matemáticos, los informáticos usan lenguajes formales para señalar ideas (específicamente cómputos). Tal como los ingenieros, ellos diseñan cosas, ensamblando componentes para crear sistemas y evaluando ventajas y desventajas de las alternativas. Tal como los científicos, ellos observan el comportamiento de sistemas complejos, crean hipótesis y confirman predicciones.
 
-La única habilidad más importante para un informático es la resolución de problemas. Resolver problemas significa la habilidad de formular problemas, pensar creativamente acerca de las soluciones y expresar una solución clara y precisa. Resulta que el proceso de aprender a programar es una oportunidad excelente de practicar la resolución de problemas. Por eso este capítulo se titula “El camino del programador”.
+La única habilidad más importante para un informático es **la habilidad de resolver de problemas**. Resolver problemas implica la habilidad de formular problemas, pensar creativamente acerca de las soluciones y expresar una solución clara y precisa. Resulta que el proceso de aprender a programar es una oportunidad excelente de practicar la resolución de problemas. Por eso este capítulo se titula “El camino del programador”.
 
 Por un lado usted va aprender a programar, una habilidad útil por sí misma. Por otro lado, usted va a usar la programación como un medio para llegar a un fin. A medida que avanzamos el fin será más claro.
 
 El Lenguaje de Programación Python
 ==================================
 
-El lenguaje de programación que se estará aprendiendo aquí es Python. Python es un ejemplo de lenguaje de alto nivel; otros lenguajes de alto nivel que pueden ser familiares son C++, PHP, Pascal, C# y Java.
+El lenguaje de programación que se estará aprendiendo aquí es Python. Python es un ejemplo de **lenguaje de alto nivel**; otros lenguajes de alto nivel que pueden ser familiares son C++, PHP, Pascal, C# y Java.
 
-Como se puede inferir a partir del nombre “lenguaje de alto nivel”, también hay lenguajes de bajo nivel a veces referenciados como lenguajes de máquina o lenguajes ensamblador. Hablando ligeramente, los computadores sólo pueden ejecutar programas escritos en lenguajes de bajo nivel. Así, los programas escritos en un lenguaje de alto nivel deben ser traducidos en algo más apropiado antes de que puedan ejecutarse.
+Como se puede inferir a partir del nombre “lenguaje de alto nivel”, también hay **lenguajes de bajo nivel** a veces referenciados como lenguajes de máquina o lenguajes ensamblador. Hablando ligeramente, los computadores sólo pueden ejecutar programas escritos en lenguajes de bajo nivel. Así, los programas escritos en un lenguaje de alto nivel deben ser traducidos en algo más apropiado antes de que puedan ejecutarse.
 
 Casi todos los programas están escritos en lenguajes de alto nivel debido a sus ventajas. Es mucho más fácil programar en lenguaje de alto nivel para que los programas tomen menos tiempo para ser escritos, sean más cortos y fáciles de leer y más probable que sean correctos. Además, los lenguajes de alto nivel son portables lo que significa que pueden ejecutarse en diferentes tipos de computadores con pocas o ninguna modificación.
 
 El motor que traduce y ejecuta Python se conoce como el intérprete Python. Hay dos formas de usarlo: en modo inmediato y en modo script. En modo inmediato se teclea expresiones Python en la ventana del intérprete Python y el intérprete muestra inmediatamente el resultado.
 
-El símbolo **>>>** se conoce como el indicador Python. El intérprete usa este indicador para señalar que está listo para instrucciones. Se tecleó 2 + 2 y el intérprete evaluó la expresión y respondió 4, y en la siguiente línea dio un nuevo indicador de nuevo listo para más comandos.
+El símbolo **>>>** se conoce como el **indicador Python**. El intérprete usa este indicador para señalar que está listo para instrucciones. Se tecleó 2 + 2 y el intérprete evaluó la expresión y respondió 4, y en la siguiente línea dio un nuevo indicador de nuevo listo para más comandos.
 
 
 
-De forma alternativa uno puede escribir un programa en un archivo y usar el intérprete para ejecutar los contenidos del archivo. Tal archivo se conoce como script. Los scripts tienen la ventaja que se pueden almacenar en el disco, imprimir, etc.
+De forma alternativa uno puede escribir un programa en un archivo y usar el intérprete para ejecutar los contenidos del archivo. Tal archivo se conoce como **script**. Los scripts tienen la ventaja que se pueden almacenar en el disco, imprimir, etc.
 
 El trabajo directo en el intérprete es conveniente para probar pequeños bits de código porque permite feedback inmediato. Hay que imaginarlo como un pedazo de papel que ayuda a plantear y resolver un problema. Cualquier cosa mayor que algunas líneas de código debe ser puesta en un script.
 
@@ -33,15 +33,20 @@ Un programa es una secuencia de instrucciones que especifica cómo llevar a cabo
 
 Los detalles son diferentes en lenguajes diferente pero hay algunas instrucciones básicas que aparecen en casi cada lenguaje:
 
-**Entrada** obtención datos del teclado, un archivo, u otro aparato como un sensor
+**Entrada**: datos obtenidos del teclado, un archivo, u otro aparato tal como un sensor.
 
-**Salida** mostrar datos en la pantalla o enviar datos a un archivo u otro aparato tal como un motor
+**Salida**: datos mostrados en la pantalla o enviar datos a un archivo u otro aparato tal como un motor.
 
-**Matemáticas** realizar operaciones matemáticas básicas como adición y multiplicación
+**Matemáticas**: operaciones matemáticas básicas como la adición y la multiplicación.
 
-**Ejecución** condicional revisar ciertas condiciones y ejecutar la secuencia adecuada de declaraciones
+**Ejecución condicional**: revisión de ciertas condiciones y ejecución de una  secuencia adecuada de declaraciones.
 
-**Repetición** realizar una acción repetidamente, generalmente con alguna variación
+**Repetición**: realización de una acción repetidamente, generalmente con alguna variación.
+
+Aunque sea difícil de creer, eso es todo lo que se tiene. Cada programa alguna vez utilizado sin importar lo complicado, está hecho de
+instrucciones que se ven más o menos así. De esta forma podemos describir la programación como el proceso de dividir una tarea grande y 
+compleja en subtareas cada vez más pequeñas hasta que las subtareas son lo suficientemente simples para ser ejecutadas con secuencias
+compuestas de estas instrucciones básicas.
 
 ¿Qué es depuración?
 ===================
@@ -73,10 +78,10 @@ capítulos de modo que podría pasar mucho tiempo antes de encontrar uno.
 Errores Semánticos
 ==================
 
-El tercer tipo de rror es el **error semántico**. Si hay uno de estos en un programa, va a haber una ejecución
-exitosa en el sentido de que el computador no va a generar ningún mensaje de error pero no va a hacer lo
+El tercer tipo de error es el **error semántico**. Si hay uno de estos en un programa, se va a ejecutar el programa 
+normalmente en el sentido de que el computador no va a generar ningún mensaje de error pero no va a hacer lo
 correcto.
 
-El problema es que el programa escrito no es el programa que quería escribir. El sentido del programa (su semántica) es 
+El problema es que el programa escrito no es el programa que se quería escribir. El sentido del programa (su semántica) es 
 incorrecto. Identificar los errores semánticos pude ser complicado porque requiere que se trabaje hacia atrás
 examinando el resultado del programa y tratando de adivinar qué está haciendo.
