@@ -1,9 +1,9 @@
 El Camino del Programador
 *************************
 
-El objetivo de este libro es enseñarle cómo pensar como un experto informático. Este forma de pensamiento combina algunas de las mejores características de las matemáticas, la ingeniería y las ciencias naturales. Tal como los matemáticos, los informáticos usan lenguajes formales para señalar ideas (específicamente cómputos). Tal como los ingenieros, ellos diseñan cosas, ensamblando componentes para crear sistemas y evaluando ventajas y desventajas de las alternativas. Tal como los científicos, ellos observan el comportamiento de sistemas complejos, crean hipótesis y confirman predicciones.
+El objetivo de este libro es enseñarle a cómo pensar como un experto informático. Esta forma de pensamiento combina algunas de las mejores características de las matemáticas, la ingeniería y las ciencias naturales. Tal como los matemáticos, los informáticos usan lenguajes formales para señalar ideas (específicamente cómputos). Tal como los ingenieros, ellos diseñan cosas, uniendo componentes para crear sistemas y evaluando ventajas y desventajas de las alternativas. Tal como los científicos, ellos observan el comportamiento de sistemas complejos, crean hipótesis y confirman predicciones.
 
-La única habilidad más importante para un informático es **la habilidad de resolver de problemas**. Resolver problemas implica la habilidad de formular problemas, pensar creativamente acerca de las soluciones y expresar una solución clara y precisa. Resulta que el proceso de aprender a programar es una oportunidad excelente de practicar la resolución de problemas. Por eso este capítulo se titula “El camino del programador”.
+La única habilidad más importante para un informático es **la habilidad de resolver de problemas**. Resolver problemas implica la habilidad de formular problemas, pensar creativamente acerca de las soluciones y expresar una solución clara y precisa. Resulta que el proceso de aprender a programar es una oportunidad excelente de practicar la resolución de problemas. Por eso, este capítulo se titula “El camino del programador”.
 
 Por un lado usted va aprender a programar, una habilidad útil por sí misma. Por otro lado, usted va a usar la programación como un medio para llegar a un fin. A medida que avanzamos el fin será más claro.
 
@@ -12,24 +12,23 @@ El Lenguaje de Programación Python
 
 El lenguaje de programación que se estará aprendiendo aquí es Python. Python es un ejemplo de **lenguaje de alto nivel**; otros lenguajes de alto nivel que pueden ser familiares son C++, PHP, Pascal, C# y Java.
 
-Como se puede inferir a partir del nombre “lenguaje de alto nivel”, también hay **lenguajes de bajo nivel** a veces referenciados como lenguajes de máquina o lenguajes ensamblador. Hablando ligeramente, los computadores sólo pueden ejecutar programas escritos en lenguajes de bajo nivel. Así, los programas escritos en un lenguaje de alto nivel deben ser traducidos en algo más apropiado antes de que puedan ejecutarse.
+Como se puede inferir a partir del nombre “lenguaje de alto nivel”, también hay **lenguajes de bajo nivel** a veces referenciados como lenguajes de máquina o lenguajes ensamblador. Hablando ligeramente, los computadores sólo pueden ejecutar programas escritos en lenguajes de bajo nivel. Así, los programas escritos en un lenguaje de alto nivel deben ser traducidos a algo más apropiado antes de que puedan ejecutarse.
 
-Casi todos los programas están escritos en lenguajes de alto nivel debido a sus ventajas. Es mucho más fácil programar en lenguaje de alto nivel para que los programas tomen menos tiempo para ser escritos, sean más cortos y fáciles de leer y más probable que sean correctos. Además, los lenguajes de alto nivel son portables lo que significa que pueden ejecutarse en diferentes tipos de computadores con pocas o ninguna modificación.
+Casi todos los programas están escritos en lenguajes de alto nivel debido a sus ventajas. Es mucho más fácil programar en lenguaje de alto nivel para que los programas tomen menos tiempo para ser escritos, sean más cortos y fáciles de leer y más probable que sean correctos. Además, los lenguajes de alto nivel son portables, lo que significa que pueden ejecutarse en diferentes tipos de computadores con pocas o ninguna modificación.
 
-El motor que traduce y ejecuta Python se conoce como el intérprete Python. Hay dos formas de usarlo: en modo inmediato y en modo script. En modo inmediato se teclea expresiones Python en la ventana del intérprete Python y el intérprete muestra inmediatamente el resultado.
+El motor que traduce y ejecuta Python se conoce como el intérprete Python. Hay dos formas de usarlo: en modo inmediato y en modo script. En modo inmediato se teclean expresiones Python en la ventana del intérprete Python y el intérprete muestra inmediatamente el resultado.
 
-El símbolo **>>>** se conoce como el **indicador Python**. El intérprete usa este indicador para señalar que está listo para instrucciones. Se tecleó 2 + 2 y el intérprete evaluó la expresión y respondió 4, y en la siguiente línea dio un nuevo indicador de nuevo listo para más comandos.
-
+El símbolo **>>>** se conoce como el **indicador Python**. El intérprete usa este indicador para señalar que está listo para instrucciones. Se tecleó 2 + 2 y el intérprete evaluó la expresión y respondió 4, y en la siguiente línea dio un nuevo indicador, de nuevo listo para más comandos.
 
 
 De forma alternativa uno puede escribir un programa en un archivo y usar el intérprete para ejecutar los contenidos del archivo. Tal archivo se conoce como **script**. Los scripts tienen la ventaja que se pueden almacenar en el disco, imprimir, etc.
 
-El trabajo directo en el intérprete es conveniente para probar pequeños bits de código porque permite feedback inmediato. Hay que imaginarlo como un pedazo de papel que ayuda a plantear y resolver un problema. Cualquier cosa mayor que algunas líneas de código debe ser puesta en un script.
+El trabajo directo en el intérprete es conveniente para probar pequeños bits de código porque permite interacción inmediata. Hay que imaginarlo como un pedazo de papel que ayuda a plantear y resolver un problema. Cualquier cosa mayor que algunas líneas de código debe ser puesta en un script.
 
 ¿Qué es un programa?
 ====================
 
-Un **programa** es una secuencia de instrucciones que especifica cómo llevar a cabo un cálculo. El cálculo puede ser algo matemático como resolver un sistema de ecuaciones o encontrar las raíces de un polinomio, pero también puede ser un cálculo simbólico como buscar y reemplazar texto en un documento o (aunque suene extraño) compilar un programa.
+Un **programa** es una secuencia de instrucciones que específica cómo llevar a cabo un cálculo. El cálculo puede ser algo matemático como resolver un sistema de ecuaciones o encontrar las raíces de un polinomio, pero también puede ser un cálculo simbólico como buscar y reemplazar texto en un documento o (aunque suene extraño) compilar un programa.
 
 Los detalles son diferentes en lenguajes diferente pero hay algunas instrucciones básicas que aparecen en casi cada lenguaje:
 
@@ -56,17 +55,17 @@ Esto puede sonar algo vago pero se va tocar el tema de nuevo cuando se hable de 
 La programación es un proceso complejo y por ser hecho por seres humanos a menudo lleva a errores.
 El proceso de búsqueda y corrección de errores de programación se conoce como **depuración**. 
 
-Se pueden tener tres tipos de errores en los programas: error sintáctico, error de ejecución y error semántico. Es bueno diferenciarlos para ubicarlos más rápidamente
+Se pueden tener tres tipos de errores en los programas: error sintáctico, error de tiempo de ejecución y error semántico. Es bueno diferenciarlos para ubicarlos más rápidamente
 
 Errores sintácticos
 ===================
 
 Python sólo puede ejecutar un programa si el programa es sintácticamente correcto; de otra forma el proceso falla y devuelve un mensaje de error.
 La **sintaxis** se refiere a la estructura del programa y las reglas acerca de esa estructura. Por ejemplo, en español
-una oración debe comenzar con una letra mayúscule y terminar con un punto. esta oración contiene un **error sintáctico**. Lo mismo que ésta
+una oración debe comenzar con una letra mayúscula y terminar con un punto. esta oración contiene un **error sintáctico**. Lo mismo que ésta
 
 Para la mayoría de los lectores, unos cuantos errores sintácticos no son un problema significativo por lo que podemos leer
-algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un soloerror sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
+algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un solo error sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
 y el programa no se ejecuta. Durante las primeras semanas de una formación en programación probablemente se pierda mucho tiempo buscando errores sintácticos.
 A medida que se adquiere experiencia se cometen menos errores y se identifican más rápido.
 
@@ -84,7 +83,7 @@ Errores Semánticos
 ==================
 
 El tercer tipo de error es el **error semántico**. Si hay uno de estos en un programa, se va a ejecutar el programa 
-normalmente en el sentido de que el computador no va a generar ningún mensaje de error pero no va a hacer lo
+normalmente en el sentido de que el computador no va a generar ningún mensaje de error, pero no va a hacer lo
 correcto.
 
 El problema es que el programa escrito no es el programa que se quería escribir. El sentido del programa (su semántica) es 
@@ -99,3 +98,48 @@ de la programación más ricas, desafiantes e interesantes intelectualmente.
 
 De cierta forma, la depuración es como un trabajo detectivesco. Uno es confrontado con pistas y de allí tiene que inferir los procesos
 y eventos que llevaron a los resultados dados.
+
+La depuración es también como una ciencia experimental. Una vez se tiene una idea de qué 
+es lo que va mal, uno modifica el programa y prueba de nuevo. Si la hipótesis fue correcta,
+entonces se puede predecir el resultado de la modificación y uno se acerca a un programa
+funcional. Si la hipótesis fue incorrecta, hay que plantear una nueva. Como indicó Sherlock Holmes,
+cuando se ha eliminado lo imposible, lo que queda aunque improbable, debe ser la verdad. (A. Conan Doyle, *El Signo de los de Cuatro*)
+
+Para algunas personas programar y depurar son la misma cosa. O sea, programar es el proceso de depuración gradual hasta que el programa hace
+lo que se le pide. La idea es que se debe comenzar con un programa que hace *algo* y luego hacer pequeñas modificaciones,
+depurándolas en el proceso de modo que se tenga un programa funcional.
+
+Por ejemplo, Linux es el núcleo de un  sistema operativo que contiene millones de líneas de código pero que comenzó como un programa
+simple que Linus Torvalds usó para explorar el chip 80386 de Intel. De acuerdo a Larry Greenfield, uno de los proyectos iniciales de Linus fue
+un programa que podía alternar de AAAA a BBBB en la pantalla. Esto se transformó más tarde en Linux (*The Linux User's Guide* Beta Version 1).
+
+Los capítulos siguientes darán más sugerencias de depuración y otras prácticas de programación.
+
+Los lenguajes formales y naturales
+===================================
+
+**Los lenguajes naturales** son los lenguajes que la gente habla como el inglés, el español, el francés. No fueron diseñados por personas
+(aunque las personas tratan de imponer algún orden en ellos); ellos evolucionaron naturalmente.   
+
+**Los lenguajes formales** son lenguajes diseñados por personas para aplicaciones específicas. Por ejemplo, las notaciones
+que los matemáticos usan en un lenguaje formal que es particularmente bueno para indicar relaciones entre números y símbolos.
+Los químicos usan un lenguaje formal para representar la estructura química de las moléculas. Y más importante:
+
+    *Los lenguajes de programación son lenguajes formales que han sido diseñados para expresar cómputos.* 
+
+Los lenguajes formales tienden a tener reglas estrictas de sintaxis. Por ejemplo, 3+3=6 es un enunciado matemático sintácticamente correcto, pero 3=+6$ no lo es.
+H\ :sub:`2`\ O es un nombre químico sintácticamente correcto, pero \ :sub:`2`\Zz no lo es. 
+
+Las reglas sintácticas vienen en dos sabores relacionados con **componentes léxicos o lexemas** (tokens) y la estructura. Los componentes léxicos son los elementos básicos del lenguaje tales como palabras, números, paréntesis, comas, etc.
+En Python, un enunciado como: ``print("Feliz año nuevo ", 2013)``  tiene 6 componentes léxicos: el nombre de la función, un paréntesis abierto, una cadena de caracteres, una coma, un número y un paréntesis cerrado.
+
+Es posible cometer errores en la forma como uno construye lexemas. Uno de los problemas con 3=+6$ es que $ no es un lexema legal en matemáticas (al menos hasta donde sabemos). Similarmente,
+\ :sub:`2`\Zz no es un lexema legal en la notación química porque no hay un elemento con la abreviatura Zz.
+
+La segunda parte de las reglas sintácticas está relacionada con la **estructura** de un enunciado, es decir, la forma como los lexemas están organizados.
+El enunciado 3=+6$ es estructuralmente ilegal porque no se puede colocar un signo más inmediatamente después de un signo igual. De forma similar, las fórmulas moleculares
+deben tener subíndices después del nombre del elemento, no antes. Y en nuestro ejemplo Python, si omitiéramos la coma, o si intercambiáramos los dos paréntesis para decir
+``print)"Feliz año nuevo ", 2013(`` nuestro enunciado todavía tendría seis lexemas válidos y legales, pero la estructura sería ilegal.
+
+Cuando se lee una oración en español o un enunciado en un lenguaje formal, hay que descifrar cuál es la estructura de la oración (aunque en un lenguaje natural uno hace esto de forma inconsciente).
+Este proceso se llama **análisis léxico** (parsing).

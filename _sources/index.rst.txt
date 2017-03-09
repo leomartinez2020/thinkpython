@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Como Pensar Como un Experto en Informática (Python)
+Cómo Pensar Como un Experto en Informática (Python)
 ====================================================
 
 .. toctree::
