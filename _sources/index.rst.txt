@@ -1,9 +1,9 @@
-.. Cómo Pensar Como un Experto en Infórmatica documentation master file, created by
+.. Cómo Pensar Como un Experto en Informática documentation master file, created by
    sphinx-quickstart on Wed Mar  8 19:02:28 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Como Pensar Como un Experto en Infórmatica (Python)
+Como Pensar Como un Experto en Informática (Python)
 ====================================================
 
 .. toctree::

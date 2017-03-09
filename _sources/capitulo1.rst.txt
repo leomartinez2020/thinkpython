@@ -29,7 +29,7 @@ El trabajo directo en el intérprete es conveniente para probar pequeños bits d
 ¿Qué es un programa?
 ====================
 
-Un programa es una secuencia de instrucciones que especifica cómo llevar a cabo un cálculo. El cálculo puede ser algo matemático como resolver un sistema de ecuaciones o encontrar las raíces de un polinomio, pero también puede ser un cálculo simbólico como buscar y reemplazar texto en un documento o (aunque suene extraño) compilar un programa.
+Un **programa** es una secuencia de instrucciones que especifica cómo llevar a cabo un cálculo. El cálculo puede ser algo matemático como resolver un sistema de ecuaciones o encontrar las raíces de un polinomio, pero también puede ser un cálculo simbólico como buscar y reemplazar texto en un documento o (aunque suene extraño) compilar un programa.
 
 Los detalles son diferentes en lenguajes diferente pero hay algunas instrucciones básicas que aparecen en casi cada lenguaje:
 
@@ -48,10 +48,13 @@ instrucciones que se ven más o menos así. De esta forma podemos describir la p
 compleja en subtareas cada vez más pequeñas hasta que las subtareas son lo suficientemente simples para ser ejecutadas con secuencias
 compuestas de estas instrucciones básicas.
 
+Esto puede sonar algo vago pero se va tocar el tema de nuevo cuando se hable de **algoritmos**.
+
 ¿Qué es depuración?
 ===================
 
-La programación es un proceso complejo y por ser hecho por seres humanos a menudo lleva a errores. El proceso de búsqueda de errores de programación se conoce como depuración. 
+La programación es un proceso complejo y por ser hecho por seres humanos a menudo lleva a errores.
+El proceso de búsqueda y corrección de errores de programación se conoce como **depuración**. 
 
 Se pueden tener tres tipos de errores en los programas: error sintáctico, error de ejecución y error semántico. Es bueno diferenciarlos para ubicarlos más rápidamente
 
@@ -59,9 +62,11 @@ Errores sintácticos
 ===================
 
 Python sólo puede ejecutar un programa si el programa es sintácticamente correcto; de otra forma el proceso falla y devuelve un mensaje de error.
-La sintaxis se refiere a la estructura del programa y las reglas acerca de esa estructura. Por ejemplo, en español una oración debe comenzar con una letra mayúscule y terminar con un punto. esta oración contiene un error sintáctico. Lo mismo que ésta
+La **sintaxis** se refiere a la estructura del programa y las reglas acerca de esa estructura. Por ejemplo, en español
+una oración debe comenzar con una letra mayúscule y terminar con un punto. esta oración contiene un **error sintáctico**. Lo mismo que ésta
 
-Para la mayoría de los lectores, unos cuantos errores sintácticos no son un problema significativo por lo que podemos leer algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un soloerror sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
+Para la mayoría de los lectores, unos cuantos errores sintácticos no son un problema significativo por lo que podemos leer
+algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un soloerror sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
 y el programa no se ejecuta. Durante las primeras semanas de una formación en programación probablemente se pierda mucho tiempo buscando errores sintácticos.
 A medida que se adquiere experiencia se cometen menos errores y se identifican más rápido.
 
@@ -85,3 +90,12 @@ correcto.
 El problema es que el programa escrito no es el programa que se quería escribir. El sentido del programa (su semántica) es 
 incorrecto. Identificar los errores semánticos pude ser complicado porque requiere que se trabaje hacia atrás
 examinando el resultado del programa y tratando de adivinar qué está haciendo.
+
+Depuración experimental
+=======================
+
+Una de las más importantes habilidades a adquirir es la depuración. Aun cuando pude ser frustrante, la depuración es una de las partes
+de la programación más ricas, desafiantes e interesantes intelectualmente.
+
+De cierta forma, la depuración es como un trabajo detectivesco. Uno es confrontado con pistas y de allí tiene que inferir los procesos
+y eventos que llevaron a los resultados dados.

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>El Camino del Programador &mdash; documentación de Cómo Pensar Como un Experto en Infórmatica (Python) - 0.0.1</title>
+  <title>El Camino del Programador &mdash; documentación de Cómo Pensar Como un Experto en Informática (Python) - 0.0.1</title>
   
 
   
@@ -35,9 +35,9 @@
         <link rel="index" title="Índice"
               href="genindex.html"/>
         <link rel="search" title="Búsqueda" href="search.html"/>
-    <link rel="top" title="documentación de Cómo Pensar Como un Experto en Infórmatica (Python) - 0.0.1" href="index.html"/>
+    <link rel="top" title="documentación de Cómo Pensar Como un Experto en Informática (Python) - 0.0.1" href="index.html"/>
         <link rel="next" title="Variables, Expresiones y Declaraciones" href="capitulo2.html"/>
-        <link rel="prev" title="Como Pensar Como un Experto en Infórmatica (Python)" href="index.html"/> 
+        <link rel="prev" title="Como Pensar Como un Experto en Informática (Python)" href="index.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -56,7 +56,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Cómo Pensar Como un Experto en Infórmatica (Python)
+            <a href="index.html" class="icon icon-home"> Cómo Pensar Como un Experto en Informática (Python)
           
 
           
@@ -98,6 +98,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#errores-sintacticos">Errores sintácticos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#errores-de-tiempo-ejecucion">Errores de tiempo ejecución</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#errores-semanticos">Errores Semánticos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#depuracion-experimental">Depuración experimental</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="capitulo2.html">Variables, Expresiones y Declaraciones</a></li>
@@ -115,7 +116,7 @@
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Cómo Pensar Como un Experto en Infórmatica (Python)</a>
+          <a href="index.html">Cómo Pensar Como un Experto en Informática (Python)</a>
         
       </nav>
 
@@ -181,7 +182,7 @@
 </div>
 <div class="section" id="que-es-un-programa">
 <h2>¿Qué es un programa?<a class="headerlink" href="#que-es-un-programa" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Un programa es una secuencia de instrucciones que especifica cómo llevar a cabo un cálculo. El cálculo puede ser algo matemático como resolver un sistema de ecuaciones o encontrar las raíces de un polinomio, pero también puede ser un cálculo simbólico como buscar y reemplazar texto en un documento o (aunque suene extraño) compilar un programa.</p>
+<p>Un <strong>programa</strong> es una secuencia de instrucciones que especifica cómo llevar a cabo un cálculo. El cálculo puede ser algo matemático como resolver un sistema de ecuaciones o encontrar las raíces de un polinomio, pero también puede ser un cálculo simbólico como buscar y reemplazar texto en un documento o (aunque suene extraño) compilar un programa.</p>
 <p>Los detalles son diferentes en lenguajes diferente pero hay algunas instrucciones básicas que aparecen en casi cada lenguaje:</p>
 <p><strong>Entrada</strong>: datos obtenidos del teclado, un archivo, u otro aparato tal como un sensor.</p>
 <p><strong>Salida</strong>: datos mostrados en la pantalla o enviar datos a un archivo u otro aparato tal como un motor.</p>
@@ -192,17 +193,21 @@
 instrucciones que se ven más o menos así. De esta forma podemos describir la programación como el proceso de dividir una tarea grande y
 compleja en subtareas cada vez más pequeñas hasta que las subtareas son lo suficientemente simples para ser ejecutadas con secuencias
 compuestas de estas instrucciones básicas.</p>
+<p>Esto puede sonar algo vago pero se va tocar el tema de nuevo cuando se hable de <strong>algoritmos</strong>.</p>
 </div>
 <div class="section" id="que-es-depuracion">
 <h2>¿Qué es depuración?<a class="headerlink" href="#que-es-depuracion" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>La programación es un proceso complejo y por ser hecho por seres humanos a menudo lleva a errores. El proceso de búsqueda de errores de programación se conoce como depuración.</p>
+<p>La programación es un proceso complejo y por ser hecho por seres humanos a menudo lleva a errores.
+El proceso de búsqueda y corrección de errores de programación se conoce como <strong>depuración</strong>.</p>
 <p>Se pueden tener tres tipos de errores en los programas: error sintáctico, error de ejecución y error semántico. Es bueno diferenciarlos para ubicarlos más rápidamente</p>
 </div>
 <div class="section" id="errores-sintacticos">
 <h2>Errores sintácticos<a class="headerlink" href="#errores-sintacticos" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Python sólo puede ejecutar un programa si el programa es sintácticamente correcto; de otra forma el proceso falla y devuelve un mensaje de error.
-La sintaxis se refiere a la estructura del programa y las reglas acerca de esa estructura. Por ejemplo, en español una oración debe comenzar con una letra mayúscule y terminar con un punto. esta oración contiene un error sintáctico. Lo mismo que ésta</p>
-<p>Para la mayoría de los lectores, unos cuantos errores sintácticos no son un problema significativo por lo que podemos leer algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un soloerror sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
+La <strong>sintaxis</strong> se refiere a la estructura del programa y las reglas acerca de esa estructura. Por ejemplo, en español
+una oración debe comenzar con una letra mayúscule y terminar con un punto. esta oración contiene un <strong>error sintáctico</strong>. Lo mismo que ésta</p>
+<p>Para la mayoría de los lectores, unos cuantos errores sintácticos no son un problema significativo por lo que podemos leer
+algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un soloerror sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
 y el programa no se ejecuta. Durante las primeras semanas de una formación en programación probablemente se pierda mucho tiempo buscando errores sintácticos.
 A medida que se adquiere experiencia se cometen menos errores y se identifican más rápido.</p>
 </div>
@@ -223,6 +228,13 @@ correcto.</p>
 incorrecto. Identificar los errores semánticos pude ser complicado porque requiere que se trabaje hacia atrás
 examinando el resultado del programa y tratando de adivinar qué está haciendo.</p>
 </div>
+<div class="section" id="depuracion-experimental">
+<h2>Depuración experimental<a class="headerlink" href="#depuracion-experimental" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Una de las más importantes habilidades a adquirir es la depuración. Aun cuando pude ser frustrante, la depuración es una de las partes
+de la programación más ricas, desafiantes e interesantes intelectualmente.</p>
+<p>De cierta forma, la depuración es como un trabajo detectivesco. Uno es confrontado con pistas y de allí tiene que inferir los procesos
+y eventos que llevaron a los resultados dados.</p>
+</div>
 </div>
 
 
@@ -238,7 +250,7 @@ examinando el resultado del programa y tratando de adivinar qué está haciendo.
         <a href="capitulo2.html" class="btn btn-neutral float-right" title="Variables, Expresiones y Declaraciones" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral" title="Como Pensar Como un Experto en Infórmatica (Python)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="Como Pensar Como un Experto en Informática (Python)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
