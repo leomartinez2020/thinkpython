@@ -96,6 +96,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#que-es-un-programa">¿Qué es un programa?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#que-es-depuracion">¿Qué es depuración?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#errores-sintacticos">Errores sintácticos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errores-de-tiempo-ejecucion">Errores de tiempo ejecución</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errores-semanticos">Errores Semánticos</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="capitulo2.html">Variables, Expresiones y Declaraciones</a></li>
@@ -199,6 +201,23 @@ La sintaxis se refiere a la estructura del programa y las reglas acerca de esa e
 <p>Para la mayoría de los lectores, unos cuantos errores sintácticos no son un problema significativo por lo que podemos leer algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un soloerror sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
 y el programa no se ejecuta. Durante las primeras semanas de una formación en programación probablemente se pierda mucho tiempo buscando errores sintácticos.
 A medida que se adquiere experiencia se cometen menos errores y se identifican más rápido.</p>
+</div>
+<div class="section" id="errores-de-tiempo-ejecucion">
+<h2>Errores de tiempo ejecución<a class="headerlink" href="#errores-de-tiempo-ejecucion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El segundo tipo de error es el error de tiempo ejecución llamado así porque no aparece sino hasta cuando se ejecuta
+el programa. Estos errores también se conocen como <strong>excepciones</strong> porque generalmente indican que ocurrió
+algo excepcional.</p>
+<p>Los errores de  tiempo de ejecución son raros en los programas sencillos que se encontraran en los primeros
+capítulos de modo que podría pasar mucho tiempo antes de encontrar uno.</p>
+</div>
+<div class="section" id="errores-semanticos">
+<h2>Errores Semánticos<a class="headerlink" href="#errores-semanticos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El tercer tipo de rror es el <strong>error semántico</strong>. Si hay uno de estos en un programa, va a haber una ejecución
+exitosa en el sentido de que el computador no va a generar ningún mensaje de error pero no va a hacer lo
+correcto.</p>
+<p>El problema es que el programa escrito no es el programa que quería escribir. El sentido del programa (su semántica) es
+incorrecto. Identificar los errores semánticos pude ser complicado porque requiere que se trabaje hacia atrás
+examinando el resultado del programa y tratando de adivinar qué está haciendo.</p>
 </div>
 </div>
 

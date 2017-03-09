@@ -59,3 +59,24 @@ La sintaxis se refiere a la estructura del programa y las reglas acerca de esa e
 Para la mayoría de los lectores, unos cuantos errores sintácticos no son un problema significativo por lo que podemos leer algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un soloerror sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
 y el programa no se ejecuta. Durante las primeras semanas de una formación en programación probablemente se pierda mucho tiempo buscando errores sintácticos.
 A medida que se adquiere experiencia se cometen menos errores y se identifican más rápido.
+
+Errores de tiempo ejecución
+===========================
+
+El segundo tipo de error es el error de tiempo ejecución llamado así porque no aparece sino hasta cuando se ejecuta
+el programa. Estos errores también se conocen como **excepciones** porque generalmente indican que ocurrió
+algo excepcional.
+
+Los errores de  tiempo de ejecución son raros en los programas sencillos que se encontraran en los primeros 
+capítulos de modo que podría pasar mucho tiempo antes de encontrar uno.
+
+Errores Semánticos
+==================
+
+El tercer tipo de rror es el **error semántico**. Si hay uno de estos en un programa, va a haber una ejecución
+exitosa en el sentido de que el computador no va a generar ningún mensaje de error pero no va a hacer lo
+correcto.
+
+El problema es que el programa escrito no es el programa que quería escribir. El sentido del programa (su semántica) es 
+incorrecto. Identificar los errores semánticos pude ser complicado porque requiere que se trabaje hacia atrás
+examinando el resultado del programa y tratando de adivinar qué está haciendo.
