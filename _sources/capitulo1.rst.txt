@@ -1,0 +1,61 @@
+El Camino del Programador
+*************************
+
+El objetivo de este libro es enseñarle cómo pensar como un experto informático. Este forma de pensamiento combina algunas de las mejores características de las matemáticas, la ingeniería y las ciencias naturales. Tal como los matemáticos, los informáticos usan lenguajes formales para señalar ideas (específicamente cómputos). Tal como los ingenieros, ellos diseñan cosas, ensamblando componentes para crear sistemas y evaluando ventajas y desventajas de las alternativas. Tal como los científicos, ellos observan el comportamiento de sistemas complejos, crean hipótesis y confirman predicciones.
+
+La única habilidad más importante para un informático es la resolución de problemas. Resolver problemas significa la habilidad de formular problemas, pensar creativamente acerca de las soluciones y expresar una solución clara y precisa. Resulta que el proceso de aprender a programar es una oportunidad excelente de practicar la resolución de problemas. Por eso este capítulo se titula “El camino del programador”.
+
+Por un lado usted va aprender a programar, una habilidad útil por sí misma. Por otro lado, usted va a usar la programación como un medio para llegar a un fin. A medida que avanzamos el fin será más claro.
+
+El Lenguaje de Programación Python
+==================================
+
+El lenguaje de programación que se estará aprendiendo aquí es Python. Python es un ejemplo de lenguaje de alto nivel; otros lenguajes de alto nivel que pueden ser familiares son C++, PHP, Pascal, C# y Java.
+
+Como se puede inferir a partir del nombre “lenguaje de alto nivel”, también hay lenguajes de bajo nivel a veces referenciados como lenguajes de máquina o lenguajes ensamblador. Hablando ligeramente, los computadores sólo pueden ejecutar programas escritos en lenguajes de bajo nivel. Así, los programas escritos en un lenguaje de alto nivel deben ser traducidos en algo más apropiado antes de que puedan ejecutarse.
+
+Casi todos los programas están escritos en lenguajes de alto nivel debido a sus ventajas. Es mucho más fácil programar en lenguaje de alto nivel para que los programas tomen menos tiempo para ser escritos, sean más cortos y fáciles de leer y más probable que sean correctos. Además, los lenguajes de alto nivel son portables lo que significa que pueden ejecutarse en diferentes tipos de computadores con pocas o ninguna modificación.
+
+El motor que traduce y ejecuta Python se conoce como el intérprete Python. Hay dos formas de usarlo: en modo inmediato y en modo script. En modo inmediato se teclea expresiones Python en la ventana del intérprete Python y el intérprete muestra inmediatamente el resultado.
+
+El símbolo **>>>** se conoce como el indicador Python. El intérprete usa este indicador para señalar que está listo para instrucciones. Se tecleó 2 + 2 y el intérprete evaluó la expresión y respondió 4, y en la siguiente línea dio un nuevo indicador de nuevo listo para más comandos.
+
+
+
+De forma alternativa uno puede escribir un programa en un archivo y usar el intérprete para ejecutar los contenidos del archivo. Tal archivo se conoce como script. Los scripts tienen la ventaja que se pueden almacenar en el disco, imprimir, etc.
+
+El trabajo directo en el intérprete es conveniente para probar pequeños bits de código porque permite feedback inmediato. Hay que imaginarlo como un pedazo de papel que ayuda a plantear y resolver un problema. Cualquier cosa mayor que algunas líneas de código debe ser puesta en un script.
+
+¿Qué es un programa?
+====================
+
+Un programa es una secuencia de instrucciones que especifica cómo llevar a cabo un cálculo. El cálculo puede ser algo matemático como resolver un sistema de ecuaciones o encontrar las raíces de un polinomio, pero también puede ser un cálculo simbólico como buscar y reemplazar texto en un documento o (aunque suene extraño) compilar un programa.
+
+Los detalles son diferentes en lenguajes diferente pero hay algunas instrucciones básicas que aparecen en casi cada lenguaje:
+
+**Entrada** obtención datos del teclado, un archivo, u otro aparato como un sensor
+
+**Salida** mostrar datos en la pantalla o enviar datos a un archivo u otro aparato tal como un motor
+
+**Matemáticas** realizar operaciones matemáticas básicas como adición y multiplicación
+
+**Ejecución** condicional revisar ciertas condiciones y ejecutar la secuencia adecuada de declaraciones
+
+**Repetición** realizar una acción repetidamente, generalmente con alguna variación
+
+¿Qué es depuración?
+===================
+
+La programación es un proceso complejo y por ser hecho por seres humanos a menudo lleva a errores. El proceso de búsqueda de errores de programación se conoce como depuración. 
+
+Se pueden tener tres tipos de errores en los programas: error sintáctico, error de ejecución y error semántico. Es bueno diferenciarlos para ubicarlos más rápidamente
+
+Errores sintácticos
+===================
+
+Python sólo puede ejecutar un programa si el programa es sintácticamente correcto; de otra forma el proceso falla y devuelve un mensaje de error.
+La sintaxis se refiere a la estructura del programa y las reglas acerca de esa estructura. Por ejemplo, en español una oración debe comenzar con una letra mayúscule y terminar con un punto. esta oración contiene un error sintáctico. Lo mismo que ésta
+
+Para la mayoría de los lectores, unos cuantos errores sintácticos no son un problema significativo por lo que podemos leer algunas obras de Saramago sin problemas (no usa signos de puntuación). Python no es tan indulgente. Si hay un soloerror sintáctico en cualquier parte del programa, Python muestra un mensaje de error y se detiene
+y el programa no se ejecuta. Durante las primeras semanas de una formación en programación probablemente se pierda mucho tiempo buscando errores sintácticos.
+A medida que se adquiere experiencia se cometen menos errores y se identifican más rápido.

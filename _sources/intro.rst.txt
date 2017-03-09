@@ -1,0 +1,9 @@
+El Camino del Programador
+=========================
+
+El objetivo de este libro es enseñarle cómo pensar como un experto informático. Este forma de pensamiento combina algunas de las mejores características de las matemáticas, la ingeniería y las ciencias naturales. Tal como los matemáticos, los informáticos usan lenguajes formales para señalar ideas (específicamente cómputos). Tal como los ingenieros, ellos diseñan cosas, ensamblando componentes para crear sistemas y evaluando ventajas y desventajas de las alternativas. Tal como los científicos, ellos observan el comportamiento de sistemas complejos, crean hipótesis y confirman predicciones.
+
+La única habilidad más importante para un informático es la resolución de problemas. Resolver problemas significa la habilidad de formular problemas, pensar creativamente acerca de las soluciones y expresar una solución clara y precisa. Resulta que el proceso de aprender a programar es una oportunidad excelente de practicar la resolución de problemas. Por eso este capítulo se titula “El camino del programador”.
+
+Por un lado usted va aprender a programar, una habilidad útil por sí misma. Por otro lado, usted va a usar la programación como un medio para llegar a un fin. A medida que avanzamos el fin será más claro.
+
