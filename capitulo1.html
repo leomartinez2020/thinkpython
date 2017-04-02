@@ -92,8 +92,8 @@
             
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">El Camino del Programador</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#el-lenguaje-de-programacion-python">El Lenguaje de Programación Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#que-es-un-programa">¿Qué es un programa?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#el-proceso-de-ejecucion-de-python">El Proceso de Ejecución de Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#que-es-depuracion">¿Qué es depuración?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#errores-sintacticos">Errores sintácticos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#errores-de-tiempo-ejecucion">Errores de tiempo ejecución</a></li>
@@ -171,16 +171,6 @@
 <p>El objetivo de este libro es enseñarle a cómo pensar como un experto informático. Esta forma de pensamiento combina algunas de las mejores características de las matemáticas, la ingeniería y las ciencias naturales. Tal como los matemáticos, los informáticos usan lenguajes formales para señalar ideas (específicamente cómputos). Tal como los ingenieros, ellos diseñan cosas, uniendo componentes para crear sistemas y evaluando ventajas y desventajas de las alternativas. Tal como los científicos, ellos observan el comportamiento de sistemas complejos, crean hipótesis y confirman predicciones.</p>
 <p>La única habilidad más importante para un informático es <strong>la habilidad de resolver de problemas</strong>. Resolver problemas implica la habilidad de formular problemas, pensar creativamente acerca de las soluciones y expresar una solución clara y precisa. Resulta que el proceso de aprender a programar es una oportunidad excelente de practicar la resolución de problemas. Por eso, este capítulo se titula “El camino del programador”.</p>
 <p>Por un lado usted va aprender a programar, una habilidad útil por sí misma. Por otro lado, usted va a usar la programación como un medio para llegar a un fin. A medida que avanzamos el fin será más claro.</p>
-<div class="section" id="el-lenguaje-de-programacion-python">
-<h2>El Lenguaje de Programación Python<a class="headerlink" href="#el-lenguaje-de-programacion-python" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>El lenguaje de programación que se estará aprendiendo aquí es Python. Python es un ejemplo de <strong>lenguaje de alto nivel</strong>; otros lenguajes de alto nivel que pueden ser familiares son C++, PHP, Pascal, C# y Java.</p>
-<p>Como se puede inferir a partir del nombre “lenguaje de alto nivel”, también hay <strong>lenguajes de bajo nivel</strong> a veces referenciados como lenguajes de máquina o lenguajes ensamblador. Hablando ligeramente, los computadores sólo pueden ejecutar programas escritos en lenguajes de bajo nivel. Así, los programas escritos en un lenguaje de alto nivel deben ser traducidos a algo más apropiado antes de que puedan ejecutarse.</p>
-<p>Casi todos los programas están escritos en lenguajes de alto nivel debido a sus ventajas. Es mucho más fácil programar en lenguaje de alto nivel para que los programas tomen menos tiempo para ser escritos, sean más cortos y fáciles de leer y más probable que sean correctos. Además, los lenguajes de alto nivel son portables, lo que significa que pueden ejecutarse en diferentes tipos de computadores con pocas o ninguna modificación.</p>
-<p>El motor que traduce y ejecuta Python se conoce como el intérprete Python. Hay dos formas de usarlo: en modo inmediato y en modo script. En modo inmediato se teclean expresiones Python en la ventana del intérprete Python y el intérprete muestra inmediatamente el resultado.</p>
-<p>El símbolo <strong>&gt;&gt;&gt;</strong> se conoce como el <strong>indicador Python</strong>. El intérprete usa este indicador para señalar que está listo para instrucciones. Se tecleó 2 + 2 y el intérprete evaluó la expresión y respondió 4, y en la siguiente línea dio un nuevo indicador, de nuevo listo para más comandos.</p>
-<p>De forma alternativa uno puede escribir un programa en un archivo y usar el intérprete para ejecutar los contenidos del archivo. Tal archivo se conoce como <strong>script</strong>. Los scripts tienen la ventaja que se pueden almacenar en el disco, imprimir, etc.</p>
-<p>El trabajo directo en el intérprete es conveniente para probar pequeños bits de código porque permite interacción inmediata. Hay que imaginarlo como un pedazo de papel que ayuda a plantear y resolver un problema. Cualquier cosa mayor que algunas líneas de código debe ser puesta en un script.</p>
-</div>
 <div class="section" id="que-es-un-programa">
 <h2>¿Qué es un programa?<a class="headerlink" href="#que-es-un-programa" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Un <strong>programa</strong> es una secuencia de instrucciones que específica cómo llevar a cabo un cálculo. El cálculo puede ser algo matemático como resolver un sistema de ecuaciones o encontrar las raíces de un polinomio, pero también puede ser un cálculo simbólico como buscar y reemplazar texto en un documento o (aunque suene extraño) compilar un programa.</p>
@@ -194,7 +184,17 @@
 instrucciones que se ven más o menos así. De esta forma podemos describir la programación como el proceso de dividir una tarea grande y
 compleja en subtareas cada vez más pequeñas hasta que las subtareas son lo suficientemente simples para ser ejecutadas con secuencias
 compuestas de estas instrucciones básicas.</p>
-<p>Esto puede sonar algo vago pero se va tocar el tema de nuevo cuando se hable de <strong>algoritmos</strong>.</p>
+</div>
+<div class="section" id="el-proceso-de-ejecucion-de-python">
+<h2>El Proceso de Ejecución de Python<a class="headerlink" href="#el-proceso-de-ejecucion-de-python" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Uno de los desafíos de comenzar con Python es que es necesario instalar Python o software relacionado en el computador.
+Si se está familiarizado con el sistema operativo y sobretodo si se está cómodo con la línea de comandos, no se tendrán
+problemas para instalar Python. Pero en el caso de los principiantes puede ser pesado aprender acerca de administración
+de sistemas y programación al mismo tiempo.</p>
+<p>Para evitar ese problema, yo recomiendo que se ejecute Python en el navegador. Cuando se tenga cierta comodidad con
+Python señalaré cómo instalarlo en el computador.</p>
+<p>Hay varias páginas que se pueden usar para correr Python. Si ya se tiene una favorita, hay que usarla. De otra forma, recomiendo
+PYthonAnywhere. Tengo instrucciones muy detalladas para comenzar en <a class="reference external" href="http://tinyurl.com/thinkpython2e">http://tinyurl.com/thinkpython2e</a>.</p>
 </div>
 <div class="section" id="que-es-depuracion">
 <h2>¿Qué es depuración?<a class="headerlink" href="#que-es-depuracion" title="Enlazar permanentemente con este título">¶</a></h2>
